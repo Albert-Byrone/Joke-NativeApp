@@ -1,3 +1,7 @@
+const loadCategories = () => ({
+  type: LOAD_CATEGORIES
+});
+
 const loadCategoriesSucceeded = ({ categories }) => ({
   type: LOAD_CATEGORIES_SUCCEEDED,
   categories
