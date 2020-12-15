@@ -1,3 +1,7 @@
+const LOAD_CATEGORIES = "LOAD_CATEGORIES";
+const LOAD_CATEGORIES_SUCCEEDED = "LOAD_CATEGORIES_SUCCEEDED";
+const LOAD_CATEGORIES_FAILED = "LOAD_CATEGORIES_FAILED";
+
 const loadCategories = () => ({
   type: LOAD_CATEGORIES
 });
@@ -12,3 +16,11 @@ const loadCategoriesFailed = ({ error }) => ({
   error
 });
 
+export {
+  LOAD_CATEGORIES,
+  LOAD_CATEGORIES_SUCCEEDED,
+  LOAD_CATEGORIES_FAILED,
+  loadCategories,
+  loadCategoriesSucceeded,
+  loadCategoriesFailed
+};
