@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 import media from "../../utils/media";
-// import { WHITE_GREY } from "../../utils/colors";
 
 const ContentContainer = styled.div`
   background-color: smokewhite;
