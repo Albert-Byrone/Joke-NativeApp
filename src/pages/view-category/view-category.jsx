@@ -62,6 +62,7 @@ const ActionFooter = styled(DialogActions)`
 const CategoryDialog = ({
   joke,
   category,
+  iconUrl,
   onClose,
   open,
   selectedValue,
@@ -75,7 +76,7 @@ const CategoryDialog = ({
     <Title>
       {isLoading
         ? "Loading category joke..."
-        : category
+        : category 
           ? category.toUpperCase()
           : ""}
     </Title>
@@ -88,6 +89,7 @@ const CategoryDialog = ({
         </ErrorWrapper>
       ) : (
         <Fragment>
+          <Icon src={iconUrl} />
           <ListItemText primary={joke} />
         </Fragment>
       )}

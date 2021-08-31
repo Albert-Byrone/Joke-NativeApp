@@ -10,7 +10,6 @@
   "dependencies": {
     "@material-ui/core": "3.0.1",
     "@types/react": "^17.0.0",
-    "firebase": "^9.0.0",
     "gh-pages": "1.2.0",
     "react": "16.4.2",
     "react-dom": "16.4.2",

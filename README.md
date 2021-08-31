@@ -14,7 +14,7 @@ A React Application that consumes the [Chuck Norris API](https://api.chucknorris
 
 ## Running the Application Locally
 
-- Clone the app: `https://github.com/Albert-Byrone/Joke-NativeApp.git`
+- Clone the app: ``
 - Install packages: `yarn install`
 
 ## Scripts

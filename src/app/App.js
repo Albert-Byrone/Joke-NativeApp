@@ -10,9 +10,6 @@ import AppRoutes from "./Routes";
 const AppHeader = styled(Header)`
   align-items: center;
   display: flex;
-  color: white;
-  font-size: 23px;
-  text-align: center;s
 `;
 const AppContainer = styled.div`
   display: flex;
@@ -23,7 +20,8 @@ const AppContainer = styled.div`
 const App = () => (
   <Provider store={store}>
     <AppContainer>
-      <AppHeader> Jokes Generater</AppHeader>
+      <AppHeader>
+      </AppHeader>
       <ContentContainer>
         <AppRoutes />
       </ContentContainer>
